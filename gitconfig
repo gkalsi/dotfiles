@@ -1,0 +1,22 @@
+[user]
+        email = me@gurjantkalsi.com
+        name = Gurjant Kalsi
+
+[color]
+        diff = auto
+        status = auto
+        branch = auto
+        interactive = auto
+        ui = auto
+
+[alias]
+        st = status
+        ci = commit
+        cim = commit -a
+        br = branch
+        co = checkout
+        df = diff
+        lg = log
+        lol = log --graph --decorate --pretty=oneline --abbrev-commit
+        ls = ls-files
+        amend = commit --amend
