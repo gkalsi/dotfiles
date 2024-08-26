@@ -1,6 +1,15 @@
+[core]
+    editor = vim
+    pager = delta
 [user]
         email = me@gurjantkalsi.com
         name = Gurjant Kalsi
+
+[interactive]
+    diffFilter = delta --color-only
+
+[delta]
+	side-by-side=true
 
 [color]
         diff = auto
@@ -20,3 +29,6 @@
         lol = log --graph --decorate --pretty=oneline --abbrev-commit
         ls = ls-files
         amend = commit --amend
+
+[init]
+        defaultBranch = main
