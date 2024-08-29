@@ -22,5 +22,5 @@ if [ ! -L ${GITCONFIG_TARGET} ] ; then
 fi
 
 if [ ! -L ${TMUX_CONF_TARGET} ] ; then
-    ln -s $(realpath gitconfig) $TMUX_CONF_TARGET
+    ln -s $(realpath tmux.conf) $TMUX_CONF_TARGET
 fi
